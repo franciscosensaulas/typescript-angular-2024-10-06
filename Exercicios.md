@@ -76,3 +76,65 @@
 - Modificar a função `exercicioVetorComFuncoes()`
   - Chamando a função `calcularTotalDosProdutos`
 
+
+## Exercício 08
+- Criar uma interface chamada Pessoa que contém as seguintes propriedades:
+  - Nome
+  - Ano de nascimento
+  - Signo 
+  - E-mail
+- Criar uma função chamada exercicioPessoa que deve fazer as seguintes ações:
+  - Instanciar um objeto da Pessoa preenchendo todos os dados
+  - Apresentar todos os dados
+  - Alterar o e-mail
+  - Alterar o signo
+  - Apresentar a idade da pessoa (fazer um cálculo)
+  - Apresentar todos os dados
+## Exercício 09
+- Criar uma interface chamada Autor que contém as seguintes propriedades:
+  - Nome *
+  - Idade *
+- Criar uma interface chamada Ator que contém as seguintes propriedades:
+  - Nome *
+  - Indicações *
+- Criar uma interface chamada Filme que contém as seguintes propriedades:
+  - Nome *
+  - Duracao *
+  - Categoria *
+  - Orçamento *
+  - Data de Lançamento *
+  - Autor *
+  - Ator *
+  - Descrição
+
+Instanciar dois filmes preenchendo todos os dados necessários e apresentar
+
+* campos obrigatórios 
+
+## Exercício 10
+- Criar classe Aluno
+  - Propriedades:
+    - Nome
+    - Apelido opcional
+    - Notas lista
+    - Percentual de frequancia (numero) 70
+  - Métodos:
+    - Calcular a média: percorrer cada uma das notas somando e depois calcular a média
+    - ehAprovado:
+      retornar verdadeiro caso o aluno atingir 7 de média com frequencia superior ou igual a 70%
+      retornar falso caso contrário
+- Criar uma classe chamada Turma que contém as seguintes propriedades:
+  Propriedades:
+    - Nome
+    - Escola
+    - Lista de Alunos
+  Métodos:
+    - Obter alunos aprovados
+    - Obter alunos reprovados
+    - Obter quantidade de alunos reprovados
+    - Obter média geral da turma (depois)
+
+Criar cinco alunos
+Criar a turma, adicionando os alunos
+Chamar os métodos da turma e apresentar
+
